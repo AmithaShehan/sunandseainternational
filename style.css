@@ -1,0 +1,80 @@
+:root{
+  --DARK-BLUE: #061144;
+  --DARK-BLUE: rgb(6, 17, 68);
+  scroll-behavior: smooth;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#carouselExampleAutoplaying img{
+ filter: brightness(45%);
+ min-width: fit-content;
+}
+
+/* #carouselExampleIndicators{
+ filter: brightness(45%);
+  min-width: fit-content;
+  height: 80vh;
+} */
+
+.test{
+ background-color: green;
+ height: 50vh;
+}
+.nav-item a{
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--DARK-BLUE);
+}
+
+/* .services h2{
+  color: var(--DARK-BLUE);
+} */
+
+.services img{
+  overflow: hidden;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 10px 0 0;
+}
+
+.services .card {
+  border-radius: 15px;
+}
+
+
+
+/* .who-we-are{
+  background-color: #061144;
+  height: 400px;
+} */
+/* .who-we-are img{
+  border-radius: 50%;
+} */
+
+
+/* Media Queries */
+
+@media only screen and (max-width: 767px) {
+  .services2 img {
+      border-radius: 10px 10px 0 0;
+    }
+}
+
+.services2 img {
+  overflow: hidden;
+  height: 254px; 
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px 0 0 10px;
+}
+
+.services2 .card {
+  border-radius: 10px;
+  z-index: 10;
+}
+
